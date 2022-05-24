@@ -11,7 +11,7 @@
     box-sizing: border-box;
 
     ul {
-        width: 65%;
+        width: 70%;
         height: 100%;
         margin: 0 auto;
         list-style: none;
@@ -47,7 +47,7 @@
 
             &:nth-of-type(7) {
                 width: 50px;
-                margin-left: 240px;
+                margin-left: 320px;
                 padding-top: 7px;
                 box-sizing: border-box;
             }
@@ -73,12 +73,11 @@
     width: 100%;
     height: 300px;
     background: url(../../use/img/original.jpg) no-repeat -185px -1px;
-
+    overflow: hidden;
     .pic_box {
-        width: 62%;
+        width: 70%;
         margin: 0 auto;
         color: white;
-
         h1 {
             float: right;
             font-weight: 500;
@@ -123,7 +122,21 @@
         }
 
     }
-
+}
+.use_move{
+    width: 300px;
+    height: 300px;
+    float: right;
+    animation: move 1s forwards;
+    transition: all .5s ease-in;
+}
+@keyframes move{
+    0%{
+        transform: translate(100%,-100%);
+    }
+    100%{
+        transform: translate(0%,0%);
+    }
 }
 
 /* 导航 */
@@ -134,7 +147,7 @@
 
     ul {
         list-style: none;
-        width: 62%;
+        width: 70%;
         height: 100%;
         margin: 0 auto;
 
@@ -179,7 +192,7 @@
 
 
 .use_content {
-    width: 62%;
+    width: 70%;
     height: 2270px;
     margin: 0 auto;
 
@@ -214,9 +227,9 @@
                     margin-bottom: 30px;
                 }
 
-                img {
-                    width: 600px;
-                }
+                // img {
+                //     width: 600px;
+                // }
 
                 h4 {
                     margin: 30px 0;
@@ -314,30 +327,15 @@
 }
 
 /* 下面内容 */
-.use_bottom{
-    width: 62%;
-    margin: 0 auto;
+.use_bottom {
+    width: 70%;
     height: 300px;
-    .use_bo_p1{
-        float: left;
-        font-size: 20px;
-        font-weight: 900;
-        color: #444;
-        display: inline;
-        margin: 20px 0;
-    }
-    .use_bo_a1{
-        float: right;
-        color: #FE5341;
-        padding-right: 20px;
-        background: url(../../use/img/use_4.png) no-repeat 70px 7px;
-        text-decoration: none;
-        margin: 30px 0;
-    }
-    ul{
-        clear: both;
+    margin: 0 auto;
+    padding-top: 30px;
+    ul {
+        width: 100%;
+        height: 100%;
         list-style: none;
-        margin: 0 auto;
         li {
             width: 223px;
             height: 280px;
@@ -351,6 +349,7 @@
                 text-decoration: none;
                 img {
                     width: 100%;
+                    height: 124px;
                     border-radius: 5px;
                 }
                 .art_sp{
@@ -400,6 +399,68 @@
                     margin-top: 5px;
                     color: #ccc;
                 }
+            }
+        }
+    }
+    .artic_p{
+        text-align: center;
+        clear: both;
+        padding-bottom: 50px;
+        color: #999;
+        a{
+            text-decoration: none;
+            color: #FE5341;
+            background: url(../../use/img/more.png) no-repeat 1px 9px;
+            padding-left: 25px;
+        }
+    }
+}
+
+/* 页脚 */
+
+.use_foot{
+    width: 100%;
+    height: 350px;
+    background-color: #505050;
+    margin-top: 10px;
+    padding-top: 40px;
+    box-sizing: border-box;
+    p{
+        text-align: center;
+        font-size: 13px;
+        color: #9f9f9a;
+    }
+    .use_fo_box{
+        width: 70%;
+        height: 90%;
+        margin: 0 auto;
+        .foot_img{
+            float: left;
+            margin-right: 20px;
+        }
+        .use_fo_ul1{
+            float: left;
+            list-style: none;
+            margin-right: 30px;
+            .fo_li{
+                color: rgb(254, 242, 242);
+                font-size: 16px;
+                margin-bottom: 30px;
+            }
+            li{
+                color: #9f9f9a;
+                font-size: 13px;
+                margin-bottom: 5px;
+                img{
+                    margin-bottom: 20px;
+                }
+                a{
+                    text-decoration: none;
+                    color: #9f9f9a;
+                }
+            }
+            .fo_li_1{
+                margin-bottom: 20px;
             }
         }
     }

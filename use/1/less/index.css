@@ -1,0 +1,53 @@
+nav {
+  width: 100%;
+  height: 300px;
+  background: url(../img/original.jpg) no-repeat -200px 1px;
+}
+nav .nav {
+  background: url(../img/original.jpg) no-repeat -460px 1px;
+  height: 200px;
+  width: 100%;
+  padding-top: 20px;
+}
+nav .nav .nav_right {
+  position: relative;
+  left: 500px;
+  top: 10px;
+  width: 500px;
+  color: #ffffff;
+}
+nav .nav .nav_right a {
+  display: block;
+  color: #ffffff;
+  background-color: #fe5341;
+  width: 242px;
+  height: 48px;
+  text-align: center;
+  line-height: 48px;
+  font-size: 24px;
+  margin-left: 248px;
+}
+nav .nav .nav_right p {
+  padding: 15px;
+  text-align: right;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+nav .nav .nav_right .nav_right_p {
+  font-size: 35px;
+}
+nav .nav .nav_right .nav_right_p1 {
+  position: relative;
+  left: 238px;
+}
+nav .nav .nav_right .nav_right_p2 {
+  font-size: 18px;
+}
+nav .nav .nav_right span {
+  float: left;
+  text-align: center;
+  background-color: #f8d39d;
+  padding: 8px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
