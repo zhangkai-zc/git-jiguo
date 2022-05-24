@@ -1,0 +1,154 @@
+main {
+    background-color: rgb(228, 226, 226);
+    height: 5460px;
+}
+
+.cont {
+    width: 65%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.cont>span {
+    display: inline-block;
+    padding: 15px 0;
+    font-size: 14px;
+    color: rgb(147, 145, 145);
+}
+
+.cont>span>a {
+    color: rgb(147, 145, 145);
+}
+
+.cont .span3 {
+    padding-bottom: 30px;
+}
+
+.cont .left {
+    display: inline;
+    font-size: 14px;
+}
+
+.cont .ptitle {
+    padding: 0;
+}
+
+.content_title {
+    width: 75%;
+    background-color: #fff;
+    height: 140px;
+    margin-bottom: 1px;
+}
+
+.content_title>span {
+    display: inline-block;
+    padding: 30px 25px;
+    font-size: 30px;
+}
+
+.content_title>ul {
+    height: 20px;
+    padding: 0 30px 20px;
+    border-bottom: 1px solid gray;
+}
+
+.content_title>ul>li {
+    font-size: 14px;
+    color: rgb(147, 145, 145);
+    height: 20px;
+    line-height: 30px;
+}
+
+.content_title>ul>li:nth-of-type(1) {
+    float: left;
+}
+
+.content_title>ul>li:nth-of-type(2) {
+    float: right;
+}
+
+.content_title>ul img {
+    width: 20px;
+}
+
+.content_text {
+    width: 75%;
+    height: 5200px;
+    background-color: #fff;
+}
+
+.concon {
+    padding: 20px 30px;
+}
+
+.concon p {
+    padding-bottom: 30px;
+}
+
+.concon span {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.concon img {
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.concon img:nth-of-type(4) {
+    padding-top: 30px;
+}
+
+.concon .pa {
+    padding: 0;
+}
+
+.concon .pa1 {
+    padding-top: 30px;
+}
+
+.concon .pa a {
+    color: rgb(175, 173, 173);
+    font-size: 14px;
+}
+
+.dianzan {
+    position: absolute;
+    top: 49px;
+    right: 0px;
+}
+
+.dianzan div {
+    float: left;
+    width: 110px;
+    height: 100px;
+    text-align: center;
+    border: 1px solid rgb(216, 214, 214);
+
+}
+
+.dianzan div a {
+    display: inline-block;
+    padding-top: 60px;
+    color: rgb(182, 177, 177);
+    font-size: 14px;
+}
+
+.dianzan .div1 {
+    border-right: 1px solid rgb(215, 213, 213);
+    background-color: #fff;
+}
+
+.dianzan .div1 a {
+    background: url(../img/xinRedo.png) no-repeat center 22px;
+}
+
+.dianzan .div2 {
+
+    background-color: #fff;
+}
+
+.dianzan .div2 a {
+    background: url(../img/share_yj1.png) no-repeat center 22px;
+}
