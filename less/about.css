@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+article {
+  height: 2400px;
+  overflow: hidden;
+}
+article .section_right {
+  height: 2350px;
+}
+article .connectUs {
+  margin-bottom: 40px;
+}
+article h2 {
+  color: #474747;
+  margin-left: 30px;
+}
+article .section_h2 {
+  margin: 20px;
+  overflow: hidden;
+  padding-left: 80px;
+}
